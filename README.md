@@ -6,7 +6,7 @@ Category theory as an abstract branch of math that can formalize concepts from o
 
 #### Generalizations
 
-## Monoids satifies these 3 RULES
+## Monoids satisfy these 3 RULES
 - Closure (normally called REDUCE)
     - *The result of combining two things is ALWAYS another one of the things*
     - The type is "closed" since it only accepts the same type it is passed.
@@ -33,8 +33,8 @@ Category theory as an abstract branch of math that can formalize concepts from o
       Returns exactly what you pass in.
     
 - What about Functions?
-> Functions with the same type of input and output are indeed monoids
-- These are called ENDOMORPHISMS
+    - > Functions with the same type of input and output are indeed monoids
+    - These are called *ENDOMORPHISMS*
 
 ** SEMIGROUPS are not MONOIDS as they lack an identity element.
 
