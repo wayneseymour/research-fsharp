@@ -10,7 +10,7 @@ Category theory as an abstract branch of math that can formalize concepts from o
 - Closure (normally called REDUCE)
     - *The result of combining two things is ALWAYS another one of the things*
     - The type is "closed" since it only accepts the same type it is passed.
-    - Any pairwise op can run on lists
+    - Any pairwise op can run on lists *Remove?*
 - Associativity
     - *When combining more than two things, which pairwise combination you do first doest NOT matter*
     - Any combination of monoids 
@@ -42,3 +42,7 @@ Category theory as an abstract branch of math that can formalize concepts from o
 
 ** Any function containing an endomorphism in it's signature, can be converted into a monoid.
 ## Monad
+> Monads actually are monoids.
+- Monads are just monoids in the category of endofunctors. 
+
+- _Monad_: a functor that maps a category back to that same category is called an endofunctor. Quick detour from the category theory into the real world — in programming, we deal with functors in category of types, and they are all endofunctors. They map a category of types back to category of types
